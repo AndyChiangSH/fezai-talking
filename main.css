@@ -1,0 +1,61 @@
+h1 {
+    font-weight: 700;
+}
+
+.container {
+    width: 60%;
+    margin: 50px auto;
+}
+
+.toolbar {
+    margin: 30px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.select-container {
+    display: flex;
+    align-items: baseline;
+}
+
+.select-container label {
+    margin-right: 10px;
+}
+
+.select-container select {
+    width: 100px;
+}
+
+#create {
+    width: 80px;
+    font-weight: 700;
+}
+
+#copy {
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 500px) {
+    .container {
+        width: 90%;
+    }
+    #create {
+        width: 100%;
+        margin-top: 20px;
+        font-weight: 700;
+    }
+    #copy {
+        width: 100%;
+    }
+}
+
+.footer {
+    margin-top: 50px;
+}
+
+.footer p {
+    text-align: center;
+    font-size: 12px;
+}

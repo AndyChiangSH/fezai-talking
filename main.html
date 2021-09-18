@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>肥宅對話生成器</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet" href="main.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="dictionary.js"></script>
+    <script src="main.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <h1>肥宅對話生成器</h1>
+        <p>好玩而已啦www 真的不是所有宅宅講話都這樣的 (茶</p>
+        <hr>
+        <div class="input-container">
+            <label for="input" class="form-label">請輸入一段文字：</label>
+            <textarea class="form-control" id="input" rows="10">修煉愛情的心酸 學會放好以前的渴望
+我們那些信仰 要忘記多難
+遠距離的欣賞 近距離的迷惘
+誰說太陽會找到月亮
+別人有的愛 我們不可能模仿</textarea>
+        </div>
+        <div class="toolbar">
+            <div class="select-container">
+                <label for="level" class="form-label">肥宅程度</label>
+                <select id="level" class="form-select" aria-label="Default select example">
+                    <option value="輕度">輕度</option>
+                    <option value="中度" selected>中度</option>
+                    <option value="重度">重度</option>
+                </select>
+            </div>
+            <button id="create" type="button" class="btn btn-primary">生成</button>
+        </div>
+        <div class="output-container">
+            <label for="output" class="form-label">結果：</label>
+            <textarea class="form-control" id="output" rows="10"></textarea>
+            <button id="copy" type="button" class="btn btn-primary">複製到剪貼簿</button>
+        </div>
+        <div class="footer">
+            <div class="infos">
+
+            </div>
+            <p>Copyright© 2021 Andy Chiang</p>
+        </div>
+    </div>
+
+</body>
+
+</html>
