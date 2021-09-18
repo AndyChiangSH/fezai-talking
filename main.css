@@ -56,6 +56,18 @@ h1 {
 }
 
 .footer p {
+    margin-top: 10px;
     text-align: center;
     font-size: 12px;
+}
+
+.infos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+.infos-item {
+    margin: 5px 10px;
 }
