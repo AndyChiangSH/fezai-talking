@@ -5,45 +5,39 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>肥宅對話生成器</title>
+    <title>肥宅對話復原器</title>
     <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
-    <link rel="stylesheet" href="main.css">
+    <!-- <link rel="stylesheet" href="reset.css"> -->
+    <link rel="stylesheet" href="recover.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="dictionary.js"></script>
-    <script src="main.js"></script>
+    <script src="dictionary-recover.js"></script>
+    <script src="recover.js"></script>
 </head>
 
 <body>
     <div class="container">
         <div class="nav-container">
-            <a href="main.html" type="button" class="btn btn-outline-primary active">生成器</a>
-            <a href="recover.html" type="button" class="btn btn-outline-success">復原器</a>
+            <a href="main.html" type="button" class="btn btn-outline-primary">生成器</a>
+            <a href="recover.html" type="button" class="btn btn-outline-success active">復原器</a>
             <!-- <a href="#" type="button" class="btn btn-outline-secondary">評分器</a> -->
         </div>
-        <h1>肥宅對話<span>生成</span>器</h1>
-        <p>好玩而已啦www 真的不是所有宅宅講話都這樣的 (茶</p>
+        <h1>肥宅對話<span>復原</span>器</h1>
+        <p>這幾天被宅宅朋友瘋狂騷擾的朋友有福了。</p>
         <hr>
         <div class="input-container">
             <label for="input" class="form-label">請輸入一段文字：</label>
             <textarea class="form-control" id="input" rows="10"></textarea>
         </div>
         <div class="toolbar">
-            <div class="select-container">
-                <label for="level" class="form-label">肥宅程度</label>
-                <select id="level" class="form-select" aria-label="Default select example">
-                    <option value="輕度">輕度</option>
-                    <option value="中度" selected>中度</option>
-                    <option value="重度">重度</option>
-                </select>
-            </div>
-            <button id="create" type="button" class="btn btn-primary">生成</button>
+            <button id="recover" type="button" class="btn btn-success">復原</button>
         </div>
         <div class="output-container">
-            <label for="output" class="form-label">生成結果：</label>
+            <label for="output" class="form-label">復原結果：</label>
             <textarea class="form-control" id="output" rows="10"></textarea>
-            <button id="copy" type="button" class="btn btn-primary">複製到剪貼簿</button>
+            <p>因為辨識能力有限，出現沒有100%復原的情況是很正常的。</p>
+            <button id="copy" type="button" class="btn btn-success">複製到剪貼簿</button>
         </div>
         <div class="footer">
             <div class="infos">
@@ -54,8 +48,8 @@
                     </a>
                 </div>
                 <div class="infos-item">
-                    <a href="https://github.com/AndyChiangSH/fezai-talking"><img
-                            src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fandychiangsh.github.io%2Ffezai-talking%2Fmain&count_bg=%23226AF6&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=%E4%BB%8A%E6%97%A5%E4%BA%BA%E6%AC%A1+%2F+%E7%B8%BD%E8%A8%88%E4%BA%BA%E6%AC%A1&edge_flat=false" /></a>
+                    <a href="https://hits.seeyoufarm.com"><img
+                            src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fandychiangsh.github.io%2Ffezai-talking%2Frecover&count_bg=%23198754&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=%E4%BB%8A%E6%97%A5%E4%BA%BA%E6%AC%A1+%2F+%E7%B8%BD%E8%A8%88%E4%BA%BA%E6%AC%A1&edge_flat=false" /></a>
                 </div>
             </div>
             <p>Copyright© 2021 Andy Chiang</p>

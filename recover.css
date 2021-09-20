@@ -3,7 +3,7 @@ h1 {
 }
 
 h1>span {
-    color: #0d6efd;
+    color: #198754;
 }
 
 .container {
@@ -19,20 +19,7 @@ h1>span {
     flex-wrap: wrap;
 }
 
-.select-container {
-    display: flex;
-    align-items: baseline;
-}
-
-.select-container label {
-    margin-right: 10px;
-}
-
-.select-container select {
-    width: 100px;
-}
-
-#create {
+#recover {
     width: 80px;
     font-weight: 700;
 }

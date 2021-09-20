@@ -67,6 +67,7 @@ $(function () {
 
         // 顯示在輸出框
         // console.log(output);
+        output = output.slice(0, output.length-1)
         $("#output").val(output);
     })
 

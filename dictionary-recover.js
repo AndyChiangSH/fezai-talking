@@ -7,27 +7,24 @@ const prefixes = [
     "笑死",
     "Ahoy!",
     "好油哦",
+    "嗯...",
     "嗯..",
+    "嗯.",
+    "嗯",
     "拍拍",
     "阿諾捏",
     "嗯哼",
     "哼!",
+    "哼",
     "呼呼~",
+    "呼呼",
+    "ㄏㄏ",
+    "ㄎㄎ",
     "哈哈"
 ]
 
 // 後綴詞1的字典
-const postfixes1 = [
-    "w",
-    "ww",
-    "www",
-    "wwww",
-    "wwwww",
-    "W",
-    "WW",
-    "WWW",
-    "WWWW",
-    "WWWWW",
+const postfixes1 = [    
     "XD",
     "Orz",
     "==",
